@@ -56,7 +56,7 @@
 		
 **Expected Output**
 
-![Java Version Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ApacheNutch/1.png)
+![Java Version Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ApacheNutch/1.png)
 ##
 
 **Installating Requirements**
@@ -103,7 +103,7 @@ StormCrawler is an open source SDK for building distributed web crawlers based o
 	 
 **Output**
 
-![Solr Running Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/StormCrawler/1.PNG)
+![Solr Running Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/StormCrawler/1.PNG)
 ##
 
 **Installation and Configuration of Zookeeper:**
@@ -257,15 +257,15 @@ If starting Solr with those configs was successful, you can see the following co
 
 Then add the following lines to crawler.flux in includes section in solrDemo directory, mention the correct path to the given below path of files along with their valid directories:
 
-![Solr Running Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/StormCrawler/2.PNG)
+![Solr Running Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/StormCrawler/2.PNG)
 
 And bolts section should like this:
 
-![Solr Running Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/StormCrawler/3.PNG)
+![Solr Running Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/StormCrawler/3.PNG)
 
  Also you can write the websites you want to crawl in this file by changing the urls given in the image below:
  
-![Solr Running Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/StormCrawler/4.PNG)
+![Solr Running Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/StormCrawler/4.PNG)
 
 In crawler-conf.yaml set the following config:
 
@@ -292,26 +292,26 @@ Now everything is done and we can compile our project using the following comman
 
 **Output**
 
-![Solr Running Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/StormCrawler/5.PNG)
+![Solr Running Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/StormCrawler/5.PNG)
 
 Now you can see the status of crawling, in status core of Solr Web Admin Panel, like below: 
 
-![Crawler Running Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/StormCrawler/6.PNG)
+![Crawler Running Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/StormCrawler/6.PNG)
 
 As you can see, we have discovered all URLs in those websites. Now it’s time to fetch data. To do so, we have to change the crawler.flux like below: We remove this:
 
-![Crawler.flux Config](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/StormCrawler/7.PNG)
+![Crawler.flux Config](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/StormCrawler/7.PNG)
 
 And write this:
 
-![Crawler.flux Config](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/StormCrawler/8.PNG)
+![Crawler.flux Config](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/StormCrawler/8.PNG)
 
 Now we run the previous command again:
  -     /opt/apache-storm-1.2.2/bin # storm jar /opt/solrDemo/target/solrDemo-1.0-SNAPSHOT.jar org.apache.storm.flux.Flux --local /opt/solrDemo/crawler.flux --sleep 86400000
 
 After crawling operation is finished successfully, we can see the content of each URL in docs core in Solr Web Admin Panel.
 
-![Solr Data Collection](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/StormCrawler/9.PNG)
+![Solr Data Collection](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/StormCrawler/9.PNG)
 
 ***That’s all folks !!! Enjoy crawling your own URL’s.***
 
