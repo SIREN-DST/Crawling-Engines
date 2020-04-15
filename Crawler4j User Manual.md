@@ -62,7 +62,7 @@
 		
 **Expected Output**
 
-![Java Version Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ApacheNutch/1.png)
+![Java Version Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ApacheNutch/1.png)
 ##
 
 **Installation Requirements**
@@ -103,7 +103,7 @@ Crawler4j is a Java library which provides a simple interface for crawling the w
  
 **Output**
 
-![Dependency Properties Configuration](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/Crawler4j/1.PNG)
+![Dependency Properties Configuration](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/Crawler4j/1.PNG)
 
  - Custom crawler class should be added by extending the WebCrawler class provided by Crawler4j framework. Two methods, “shouldVisit” and “visit” methods should be overridden to provide expected behavior for the crawler as given in below code snippet.
 
@@ -120,7 +120,7 @@ Crawler4j is a Java library which provides a simple interface for crawling the w
 **Output**
 
 
-![Crawler4j Crawl Output ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/Crawler4j/2.PNG)
+![Crawler4j Crawl Output ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/Crawler4j/2.PNG)
 
 
 
