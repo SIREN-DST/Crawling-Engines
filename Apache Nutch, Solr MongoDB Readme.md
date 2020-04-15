@@ -40,23 +40,23 @@ Your flavor of Linux may vary, if you have the correct versions of the main comp
 **Apache Nutch**
 
 Nutch 2.x is only available as a source bundle, so it will need to be built using ant after configuring.
-![Apache Nutch Download Details](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ApacheNutch/2.png)  
+![Apache Nutch Download Details](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ApacheNutch/2.png)  
 
 Next, we configure Nutch by editing $NUTCH_HOME/conf/nutch-site.xml. (Nutch home : the path of the directory) This is where we define the crawldb database driver, enable plugins, and the crawl behavior, to restrict it to only the domain defined.
-![Nutch-Site Details](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ApacheNutch/3.png)
+![Nutch-Site Details](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ApacheNutch/3.png)
 Figure 1.1: The configuration lines that are addressed in nutch-site.xml file. 
 The path of the xml file: https://gist.github.com/lobster1234/ef8e9f6fbea6154da720d2534d490706#file-nutch-site-xml
 
-![Gora Properties Details](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ApacheNutch/4.png)
+![Gora Properties Details](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ApacheNutch/4.png)
 
 Figure 1.2: These configuration lines that are addressed above need to copy into $ NUTCH_HOME/conf/gora.properties file. Nutch 2.x uses Apache Gora to manage persistence.
 
-![Gora Properties Details](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ApacheNutch/5.PNG)
+![Gora Properties Details](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ApacheNutch/5.PNG)
 Figure 1.3: The configuration lines that are addressed in $ NUTCH_HOME/conf/gora.properties file. The path to the XML file: https://gist.github.com/lobster1234/60a4422b398c029dca0e3ee452c5dd2a#file-gora-properties
 
 We also change $ NUTCH_HOME/conf/ivy/ivy.xml to enable MongoDB driver which will be used by Apache Gora. This is done by uncommenting the MongoDB line in the file.
 
-![MongoDB details](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ApacheNutch/6.PNG)
+![MongoDB details](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ApacheNutch/6.PNG)
 
 Figure 1.4: The configuration lines that needs to be uncommented via the $NUTCH_HOME/conf/ivy/ivy.xml file. The path to the xml file : https://gist.github.com/lobster1234/7edffdff1410102013b3d271f6e22c35
 
@@ -64,7 +64,7 @@ Figure 1.4: The configuration lines that needs to be uncommented via the $NUTCH_
  - Please change the url path in the $NUTCH_HOME/conf/ivy/ivysettings.xml file.
  - Change the http to https in the first four lines of the code as show in the figure below:
  
-![IVY details](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ApacheNutch/7.PNG)
+![IVY details](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ApacheNutch/7.PNG)
 
 Figure 1.5: We need to change the http to https in file $NUTCH_HOME/ivy/ivysettings.xml. 
 Now we build Nutch. Install ant if it is not installed already.
@@ -102,7 +102,7 @@ Next, we have to fix the solrconfig.xml
  - $ vi solrconfig.xml
 Locate the section for **AddSchemaFieldsUpdateProcessorFactory** and comment out the <lst> elements, like so-
 
-![Solr Config details](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ApacheNutch/8.PNG)
+![Solr Config details](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ApacheNutch/8.PNG)
 ##
 **Crawl and Index**
 
