@@ -59,44 +59,44 @@ Create first admin account:
 At this point you can access MAAS at `http://<MAAS_IP>:5240/MAAS`. Fill in admin user credentials and press the “Login” button:
 
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/1.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/1.png)
 
 
 Configure the “DNS forwarder” field to an IP address of a DNS server of your choice:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/2.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/2.png)
 
 Then scroll down and press the “Continue” button:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/3.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/3.png)
 
 One more time you have an opportunity to import public SSH keys from GitHub or Launchpad. Once you are done, press the “Go to dashboard” button:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/4.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/4.png)
 
 You should see the MAAS Machines page. Do not worry about the warning message for now:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/5.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/5.png)
 
 Unless you have imported your public SSH keys from GitHub/Launchpad in one of the previous steps, navigate the “admin” tab in the top right corner and go to the “SSH keys” section. You can use the “Source” drop-down list to either upload or import the keys:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/6.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/6.png)
 
 For example, to upload the key, paste its value to the “Public key” field and press the “Import” button:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/7.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/7.png)
 
 Then navigate to the ‘Subnets” tab in the top menu and press on the “untagged” VLAN next to the “172.16.7.0/24” subnet (the `provisioning` subnet):
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/8.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/8.png)
 
 From the “Take action” drop-down menu on the right select “Provide DHCP”:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/9.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/9.png)
 
 Fill in the “Dynamic range start IP” and “Dynamic range end IP” fields and press the “Provide DHCP” button:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/10.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/10.png)
 
 At this point, your MAAS instance is ready to provision other machines.
 
@@ -106,33 +106,33 @@ All other nodes should be configured to PXE boot from the provisioning subnet by
 
 Once configured, power them on and wait until they show up in the “Machines” tab in MAAS:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/11.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/11.png)
 
 Then click on each of those machines and for each of them perform the following actions:
 
  Change their name to something more meaningful. Click on the old name, type the new one and press the “Save” button:
  
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/12.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/12.png)
 
 Add power configuration if missing. Navigate to the “Configuration” tab in the machine menu and scroll down to the “Power configuration section”. Select power type (IPMI in this case) and fill in other required fields. Once done, press the “Save changes” button:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/13.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/13.png)
 
 Once all machines are configured, navigate to the “Machines” tab in the main menu, check all machines and select “Commission” from the “Take action” menu on the right:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/14.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/14.png)
 
 Press “Commission 5 machines” button:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/15.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/15.png)
 
 The nodes are going through the commissioning process. It may take a while. Once finished, you should see the following output:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/16.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/16.png)
 
 Click on each of the machines again and for each of them go to the “Interfaces” tab in the machine menu. Make sure that both interfaces are configured as per the screenshot below. Adjust them if needed by pressing the lines under “Actions” and selecting “Edit Physical”:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/17.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/17.png)
 
 At this point the remaining machines are ready for being provisioned.
 
@@ -277,7 +277,7 @@ juju status
 
 This is what you should be able to see in the “Machines” tab in MAAS:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/18.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/18.png)
 
 At this point, your OpenStack installation is ready for being tested.
 
@@ -292,15 +292,15 @@ The Horizon service is available at the IP address displayed by running:
 
 Go to `http://<Horizon IP>:80/horizon` URL. You should see the OpenStack login screen. Type your credentials and press the “Sign In” button. Use “admin_domain” in the “Domain” field:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/19.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/19.png)
 
 You should be able to see the OpenStack welcome screen. Click on the “admin” drop-down list in the top right corner and press “OpenStack RC File”:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/20.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/20.png)
 
 Some browsers may require that you confirm that you want to download this file. If you are using Google Chrome, press “Keep” from the menu on the bottom:
 
-![Cluster Stack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/DataCentre/21.png)
+![Cluster Stack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/DataCentre/21.png)
 
 Place the downloaded file on a machine where you want to install the OpenStack client. Then install it by running the following command:
 
