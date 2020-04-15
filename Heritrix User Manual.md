@@ -56,7 +56,7 @@
 		
 **Expected Output**
 
-![Java Version Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ApacheNutch/1.png)
+![Java Version Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ApacheNutch/1.png)
 ##
 
 **Installation Requirements**
@@ -105,7 +105,7 @@ Heritrix is a web crawler designed for web archiving. It was written by the Inte
  
 **Output**
 
-![Heritrix Start Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/Heritrix/1.PNG)
+![Heritrix Start Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/Heritrix/1.PNG)
 ##
 
 **Installation and Configuration of Heritrix UI:**
@@ -113,7 +113,7 @@ Heritrix is a web crawler designed for web archiving. It was written by the Inte
 Once after the UI is running properly on the your localhost “http://127.0.0.1:8080” then we start the procedure for crawling of the webpages.
 
 **Output**
-![Heritrix Start Page ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/Heritrix/2.PNG)
+![Heritrix Start Page ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/Heritrix/2.PNG)
 
 Figure 1: The Heritrix UI running on the localhost machine.
 
@@ -134,19 +134,19 @@ Figure 1: The Heritrix UI running on the localhost machine.
 **Output**
 
 
-![Heritrix Start Page ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/Heritrix/3.PNG)
+![Heritrix Start Page ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/Heritrix/3.PNG)
 
 
 Figure 2: To Configure and run a job in the Heritrix UI.
 
 
 
-![Heritrix Start Page ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/Heritrix/4.PNG)
+![Heritrix Start Page ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/Heritrix/4.PNG)
 
 
 Figure 2.1: To ensure that http-headers details are filled as shown above and then the job is submitted.
 
-![Heritrix Start Page ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/Heritrix/5.PNG)
+![Heritrix Start Page ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/Heritrix/5.PNG)
 
 
 Figure 3: After the successful configuration, your Heritrix UI based crawling tool starts operating.
