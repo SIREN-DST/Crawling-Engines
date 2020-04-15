@@ -73,11 +73,11 @@ password: keystone
 ```
 Type the credentials and press the ‘Sign In’ button:
 
-![OpenStack Login ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/OpenStack/1.PNG)
+![OpenStack Login ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/OpenStack/1.PNG)
 
 You should now see the OpenStack dashboard:
 
-![OpenStack Dashboard](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/OpenStack/2.PNG)
+![OpenStack Dashboard](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/OpenStack/2.PNG)
 
 You can start playing with your local private cloud (i.e. create additional users, launch instances, etc.).
 
