@@ -31,7 +31,7 @@
 		- export PATH=$ PATH: $ JAVA_HOME/bin (No spaces between the symbol and word).
 		
 **Expected Output**
-![Java Version Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ApacheNutch/1.png)
+![Java Version Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ApacheNutch/1.png)
 ##
 **Installation of Apache Nutch/Mongodb/Apache Solr:**
 
