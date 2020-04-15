@@ -16,7 +16,7 @@ Nutch can run on a single machine, but gains a lot of its strength from running 
 
 Nutch is a project of the Apache Software Foundation and is part of the larger Apache community of developers and users.
 
-[Apache Nutch, Solr, MongoDB User Manuals Link](https://github.com/abhaymehtre/Crawling-Engines/blob/master/Apache%20Nutch%2C%20Solr%20MongoDB%20Readme.md)
+[Apache Nutch, Solr, MongoDB User Manuals Link](https://github.com/SIREN-DST/Crawling-Engines/blob/master/Apache%20Nutch%2C%20Solr%20MongoDB%20Readme.md)
 
 
 
@@ -29,7 +29,7 @@ StormCrawler is an open source SDK for building distributed web crawlers based o
 - The aim of StormCrawler is to help build web crawlers that are:
   - Scalable, resilient, low latency, easy to extend and polite yet efficient.
   
-  [StormCrawler and Solr User Manuals Link](https://github.com/abhaymehtre/Crawling-Engines/blob/master/Storm-Crawler%20and%20Solr%20User-Manual.md)
+  [StormCrawler and Solr User Manuals Link](https://github.com/SIREN-DST/Crawling-Engines/blob/master/Storm-Crawler%20and%20Solr%20User-Manual.md)
   
 #### Crawler4j
   
@@ -37,7 +37,7 @@ StormCrawler is an open source SDK for building distributed web crawlers based o
 
 Crawler4j is a Java library which provides a simple interface for crawling the web. Using it, you can setup a multi-threaded web crawler in 5 minutes! It is also very efficient; it has been able to download and parse 200 pages per second on a Quad core PC with cable connection.
 
-[Crawler4j User Manual Link](https://github.com/abhaymehtre/Crawling-Engines/blob/master/Crawler4j%20User%20Manual.md) 
+[Crawler4j User Manual Link](https://github.com/SIREN-DST/Crawling-Engines/blob/master/Crawler4j%20User%20Manual.md) 
 
 #### Heritrix
 
@@ -45,6 +45,6 @@ Crawler4j is a Java library which provides a simple interface for crawling the w
 
 Heritrix is a web crawler designed for web archiving. It was written by the Internet Archive. It is available under a free software license and written in Java. The main interface is accessible using a web browser, and there is a command-line tool that can optionally be used to initiate crawls. 
 
-[Heritrix User Manual Link](https://github.com/abhaymehtre/Crawling-Engines/blob/master/Heritrix%20User%20Manual.md)
+[Heritrix User Manual Link](https://github.com/SIREN-DST/Crawling-Engines/blob/master/Heritrix%20User%20Manual.md)
 
 #
