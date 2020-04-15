@@ -106,7 +106,7 @@ $ docker container run hello-world
 
 The command will download a test image, run it in a container, print a “Hello from Docker” message and exit. The output should look like the following:
 
-![Hello Docker Message](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/Docker/1.jpg)
+![Hello Docker Message](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/Docker/1.jpg)
 
 ## Upgrading the Docker 
 
@@ -165,7 +165,7 @@ $ docker search ubuntu
 ```
 The output should look like this:
 
-![Docker Search ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/Docker/2.jpg)
+![Docker Search ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/Docker/2.jpg)
 
 As you can see, the search prints a table with five columns, `NAME`, `DESCRIPTION`, `STARS`, `OFFICIAL` and `AUTOMATED`.
 
@@ -179,7 +179,7 @@ For example, to download the latest official build of the Ubuntu 18.04 image, yo
 
     docker image pull ubuntu
 
-![Docker Search ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/Docker/3.jpg)
+![Docker Search ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/Docker/3.jpg)
 
 Depending on your Internet speed, the download may take a few seconds or minutes.
 
@@ -195,7 +195,7 @@ To list all downloaded images type:
 
 The output will look something like this:
 
-![Docker Search ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/Docker/4.jpg)
+![Docker Search ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/Docker/4.jpg)
 
 ### Remove Docker Image
 
@@ -203,7 +203,7 @@ If for some reasons, you want to delete an image, you can do that with the `imag
 
     docker image rm ubuntu
     
-![Docker Search ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/Docker/5.jpg)
+![Docker Search ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/Docker/5.jpg)
 
 #
 ## Docker Containers
@@ -238,13 +238,13 @@ To list active containers, type:
 
     docker container ls
 
-![Docker Container List ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/Docker/6.jpg)
+![Docker Container List ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/Docker/6.jpg)
 
 To view both active and inactive containers, pass it the `-a` switch:
 
     docker container ls -a
 
-![Docker Container List ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/Docker/7.jpg)
+![Docker Container List ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/Docker/7.jpg)
 
 ### Remove Docker Containers
 To delete one or more containers copy the container ID (or IDs) and paste them after the `container rm` subcommand:
