@@ -55,7 +55,7 @@
 		
 **Expected Output**
 
-![Java Version Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Nutch/1.JPG)
+![Java Version Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ELK_Nutch/1.JPG)
 
 ##
 
@@ -223,7 +223,7 @@ We need to add/uncomment the gora-hbase dependency to our ivy.xml
 		 
  - Change the http to https in the first four lines of the code as show in the figure below:
  
-![IVY details](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Nutch/2.JPG)
+![IVY details](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ELK_Nutch/2.JPG)
 
 #
 
@@ -270,7 +270,7 @@ To install elasticsearch enter below command
 	
 **Output**
 
-![Elastic Search Output ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Nutch/3.JPG)
+![Elastic Search Output ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ELK_Nutch/3.JPG)
 
 Let’s make changes in below configuration file
 
@@ -295,7 +295,7 @@ To start elasticsearch services
 
 **Output**
 
-![Elastic Search Output ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Nutch/4.JPG)
+![Elastic Search Output ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ELK_Nutch/4.JPG)
 
 Enter below command to check elasticsearch is running or not
 
@@ -305,7 +305,7 @@ Enter below command to check elasticsearch is running or not
 
 **Output**
 
-![Elastic Search Output ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Nutch/5.JPG)
+![Elastic Search Output ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ELK_Nutch/5.JPG)
 
 	
 #	
@@ -318,7 +318,7 @@ To install Kibana
 
 	$ sudo apt-get install kibana
 	
-![Kibana Installation ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Nutch/6.JPG)
+![Kibana Installation ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ELK_Nutch/6.JPG)
 
 
 Now let’s make changes in below configuration file for to access kibana 
@@ -337,7 +337,7 @@ Now let’s make changes in below configuration file for to access kibana
 
 **Output**
 
-![Kibana Installation ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Nutch/7.JPG)
+![Kibana Installation ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ELK_Nutch/7.JPG)
 
 To check the status of kibana service 
 
@@ -350,7 +350,7 @@ To stop kibana service (Not recommended)
 **Output**
 
 
-![Kibana Installation ](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Nutch/8.JPG)
+![Kibana Installation ](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ELK_Nutch/8.JPG)
 
 
 ## Fire it all up!
