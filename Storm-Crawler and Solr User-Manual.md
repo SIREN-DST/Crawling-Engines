@@ -172,7 +172,7 @@ To install Storm framework on your machine, visit the following link and downloa
 
 	 - cd /opt 
 
-	 -  wget https://archive.apache.org/dist/storm/apache-storm-1.2.2/apache-storm-1.2.2.tar.gz  
+	 -  wget http://archive.apache.org/dist/storm/apache-storm-1.2.2/apache-storm-1.2.2.tar.gz  
 
 	 - tar -zxf apache-storm-1.2.2.tar.gz 
 
