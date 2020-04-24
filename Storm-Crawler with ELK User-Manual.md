@@ -57,7 +57,7 @@
 		
 **Expected Output**
 
-![Java Version Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Stormcrawler/1.png)
+![Java Version Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ELK_Stormcrawler/1.png)
 ##
 
 **Installating Requirements**
@@ -104,7 +104,7 @@ StormCrawler is an open source SDK for building distributed web crawlers based o
 	 
 **Output**
 
-![Solr Running Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Stormcrawler/2.PNG)
+![Solr Running Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ELK_Stormcrawler/2.PNG)
 ##
 
 **Installation and Configuration of Zookeeper:**
@@ -266,15 +266,15 @@ If starting Solr with those configs was successful, you can see the following co
 
 Then add the following lines to crawler.flux in includes section in solrDemo directory, mention the correct path to the given below path of files along with their valid directories:
 
-![Solr Running Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Stormcrawler/3.PNG)
+![Solr Running Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ELK_Stormcrawler/3.PNG)
 
 And bolts section should like this:
 
-![Solr Running Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Stormcrawler/4.PNG)
+![Solr Running Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ELK_Stormcrawler/4.PNG)
 
  Also you can write the websites you want to crawl in this file by changing the urls given in the image below:
  
-![Solr Running Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Stormcrawler/5.PNG)
+![Solr Running Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ELK_Stormcrawler/5.PNG)
 
 In crawler-conf.yaml set the following config:
 
@@ -319,7 +319,7 @@ Now create a text file called  _seeds_ inside the  _stormcrawlertest_ directory.
 
 After the alterations,  _stormcrawlertest_ folder should look like the below image.
 
-![Solr Running Output](https://github.com/abhaymehtre/Crawling-Engines/blob/master/images/ELK_Stormcrawler/6.png)
+![Solr Running Output](https://github.com/SIREN-DST/Crawling-Engines/blob/master/images/ELK_Stormcrawler/6.png)
 
 Briefly explaining each and every file’s sole purpose.
 
