@@ -51,4 +51,4 @@ Heritrix is a web crawler designed for web archiving. It was written by the Inte
 **Crawlers Code and Comparison**
 All the programming codes related to the Crawlers along with the comparison if the efficiency of the crawlers is linked to as given below:
 
-[Crawler-Code-Comparison Link](https://github.com/SIREN-DST/Crawling-Engines/
+[Crawler-Code-Comparison Link](https://github.com/SIREN-DST/Crawling-Engines/tree/master/Crawlers_Code_Comparisons)
