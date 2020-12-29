@@ -144,7 +144,7 @@ Now follow the screen instruction and complete the installation.
 
 Use the below virt-install command to create a VM from terminal, it will start the installation in CLI, replace the name of the VM, description, location of ISO file and network bridge as per your setup.
 
- -     serc@kvm-ubuntu18-04:~$ sudo virt-install  -n Ubuntu-Server  --description "Test VM for Database"  --os-type=Linux  --os-variant=ubuntu --ram=1096  --vcpus=1  --disk path=/var/lib/libvirt/images/ubuntu.img,bus=virtio,size=100  --network bridge:br0 --graphics none  --location /home/serc/ubuntu18.04-x86_64-dvd.iso --extra-args console=ttyS0
+ -     serc@kvm-ubuntu18-04:~$ sudo virt-install  --name=Ubuntu-Server  --description "Test VM for Database"  --os-type=Linux  --os-variant=ubuntu18.04 --ram=1096  --vcpus=1  --disk path=/var/lib/libvirt/images/ubuntu.img,bus=virtio,size=100  --network=default --graphics none  --location /home/serc/ubuntu18.04-x86_64-dvd.iso --extra-args console=ttyS0
  
 #
   **Create, Revert, Delete KVM Virtual Machine with Virsh Command**
